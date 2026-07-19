@@ -158,10 +158,10 @@ Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, 
 
 <div align="center">
 
-[![ADSentinel](https://github-readme-stats.vercel.app/api/pin/?username=OneByJorah&repo=ADSentinel&theme=dark&border_color=FFB300&title_color=FFB300&text_color=c9c9c9&bg_color=0d0d0c&icon_color=FFB300)](https://github.com/OneByJorah/ADSentinel)
+[![CommandDesk](https://github-readme-stats.vercel.app/api/pin/?username=OneByJorah&repo=CommandDesk&theme=dark&border_color=FFB300&title_color=FFB300&text_color=c9c9c9&bg_color=0d0d0c&icon_color=FFB300)](https://github.com/OneByJorah/CommandDesk)
 [![SentryView](https://github-readme-stats.vercel.app/api/pin/?username=OneByJorah&repo=SentryView&theme=dark&border_color=FFB300&title_color=FFB300&text_color=c9c9c9&bg_color=0d0d0c&icon_color=FFB300)](https://github.com/OneByJorah/SentryView)
-[![hermes-3d-office](https://github-readme-stats.vercel.app/api/pin/?username=OneByJorah&repo=hermes-3d-office&theme=dark&border_color=FFB300&title_color=FFB300&text_color=c9c9c9&bg_color=0d0d0c&icon_color=FFB300)](https://github.com/OneByJorah/hermes-3d-office)
-[![J1-MSP-Toolkit](https://github-readme-stats.vercel.app/api/pin/?username=OneByJorah&repo=J1-MSP-Toolkit&theme=dark&border_color=FFB300&title_color=FFB300&text_color=c9c9c9&bg_color=0d0d0c&icon_color=FFB300)](https://github.com/OneByJorah/J1-MSP-Toolkit)
+[![VirtOffice](https://github-readme-stats.vercel.app/api/pin/?username=OneByJorah&repo=VirtOffice&theme=dark&border_color=FFB300&title_color=FFB300&text_color=c9c9c9&bg_color=0d0d0c&icon_color=FFB300)](https://github.com/OneByJorah/VirtOffice)
+[![NexusCore](https://github-readme-stats.vercel.app/api/pin/?username=OneByJorah&repo=NexusCore&theme=dark&border_color=FFB300&title_color=FFB300&text_color=c9c9c9&bg_color=0d0d0c&icon_color=FFB300)](https://github.com/OneByJorah/NexusCore)
 
 </div>
 
