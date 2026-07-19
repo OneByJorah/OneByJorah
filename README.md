@@ -247,7 +247,7 @@ Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, 
 
 <div align="center">
 
-📍 St. Croix, U.S. Virgin Islands &nbsp;|&nbsp; 🏢 JorahOne LLC &nbsp;|&nbsp; 🛰️ [JorahOne-Services](https://github.com/JorahOne-Services)
+📍 St. Thomas, U.S. Virgin Islands &nbsp;|&nbsp; 🏢 JorahOne LLC &nbsp;|&nbsp; 🛰️ [JorahOne-Services](https://github.com/JorahOne-Services)
 
 [![Portfolio](https://img.shields.io/badge/jorahone.com-FFB300?style=flat-square&logo=googlechrome&logoColor=0d0d0c)](https://jorahone.com)
 [![Voice PBX](https://img.shields.io/badge/voice.jorahone.com-FFB300?style=flat-square&logo=asterisk&logoColor=0d0d0c)](#)
