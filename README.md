@@ -35,9 +35,8 @@ UPTIME      Since [career start] — zero unplanned AD outages on my watch
 | Node | Function | Status |
 |---|---|---|
 | `ollama-vm` | Hermes primary inference (llama.cpp + LiteLLM) | 🟡 `OPERATIONAL` |
-| `gpu-satellite` | VIDEaiCORE (Ornith-1.0-9B, RTX 3060 12GB) | 🟡 `OPERATIONAL` |
+| `gpu-satellite` | aiCORE (Ornith-1.0-9B, RTX 3060 12GB) | 🟡 `OPERATIONAL` |
 | `voice.jorahone.com` | Asterisk PBX / PJSIP / Mitel 6900s | 🟡 `OPERATIONAL` |
-| `VIDE-STT / VIDE-STX` | 35+ Domain Controllers | 🟢 `MONITORED` |
 | `j1-biographer` | Voice AI memoir agent | 🟠 `IN DEVELOPMENT` |
 | `CIPHER` | AI-driven SOC (Suricata/Zeek/Wazuh/OpenVAS) | 🟠 `IN DEVELOPMENT` |
 
@@ -99,7 +98,7 @@ Hub-and-satellite multi-agent system. `ollama-vm` running llama.cpp + LiteLLM, H
 <td width="50%" valign="top">
 
 **🏢 VIDE Network Operations**
-Enterprise AD replication monitoring, animated NOC topology dashboards, Aruba switch SNMP dashboards (J1-SW-STX-CORE01), and DHCP/AD subnet discovery tooling across a distributed multi-district Windows environment.
+Enterprise AD replication monitoring, animated NOC topology dashboards, Aruba switch SNMP dashboards, and DHCP/AD subnet discovery tooling across a distributed multi-district Windows environment.
 `STATUS: MONITORING`
 
 </td>
@@ -108,7 +107,7 @@ Enterprise AD replication monitoring, animated NOC topology dashboards, Aruba sw
 <td width="50%" valign="top">
 
 **📞 Self-Hosted VoIP**
-Asterisk PBX with PJSIP/ARI, Mitel 6900 phones over Tailscale, Cloudflare Tunnel for external SIP under the JorahOne Networks brand — no public port exposure.
+Asterisk PBX with PJSIP/ARI, over Tailscale, Cloudflare Tunnel for external SIP under the JorahOne Networks brand — no public port exposure.
 `STATUS: OPERATIONAL`
 
 </td>
