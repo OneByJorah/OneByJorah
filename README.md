@@ -18,9 +18,8 @@
 ```
 NAME        Jhonattan L. Jimenez ("JorahOne")
 ROLE        Network Security Administrator — VIDE Office of Information Technology
-SCOPE       35+ domain controllers across St. Thomas (STT) & St. Croix (STX) districts
 SIDE        Founder, JorahOne LLC — solo MSP for SMBs (AD, network security, M365)
-LOCATION    St. Croix, U.S. Virgin Islands
+LOCATION    St. Thomas, U.S. Virgin Islands
 STACK       Windows Server · Active Directory · Docker · PowerShell · self-hosted everything
 PHILOSOPHY  Tailscale-only exposure · CLI over GUI · self-hosted over SaaS · MIT-licensed
 UPTIME      Since [career start] — zero unplanned AD outages on my watch
@@ -36,7 +35,7 @@ UPTIME      Since [career start] — zero unplanned AD outages on my watch
 |---|---|---|
 | `ollama-vm` | Hermes primary inference (llama.cpp + LiteLLM) | 🟡 `OPERATIONAL` |
 | `gpu-satellite` | aiCORE (Ornith-1.0-9B, RTX 3060 12GB) | 🟡 `OPERATIONAL` |
-| `voice.jorahone.com` | Asterisk PBX / PJSIP / Mitel 6900s | 🟡 `OPERATIONAL` |
+| `voice.jorahone.com` | Asterisk PBX / PJSIP / Snom  | 🟡 `OPERATIONAL` |
 | `j1-biographer` | Voice AI memoir agent | 🟠 `IN DEVELOPMENT` |
 | `CIPHER` | AI-driven SOC (Suricata/Zeek/Wazuh/OpenVAS) | 🟠 `IN DEVELOPMENT` |
 
