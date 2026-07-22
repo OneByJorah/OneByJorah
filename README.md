@@ -33,11 +33,11 @@ UPTIME      Since [career start] — zero unplanned AD outages on my watch
 
 | Node | Function | Status |
 |---|---|---|
-| `ollama-vm` | Hermes primary inference (llama.cpp + LiteLLM) | 🟡 `OPERATIONAL` |
-| `gpu-satellite` | aiCORE (Ornith-1.0-9B, RTX 3060 12GB) | 🟡 `OPERATIONAL` |
-| `voice.jorahone.com` | Asterisk PBX / PJSIP / Snom  | 🟡 `OPERATIONAL` |
-| `j1-biographer` | Voice AI memoir agent | 🟠 `IN DEVELOPMENT` |
-| `CIPHER` | AI-driven SOC (Suricata/Zeek/Wazuh/OpenVAS) | 🟠 `IN DEVELOPMENT` |
+| `ollama-vm` | Hermes primary inference (llama.cpp + LiteLLM) | `OPERATIONAL` |
+| `gpu-satellite` | aiCORE (Ornith-1.0-9B, RTX 3060 12GB) | `OPERATIONAL` |
+| `voice.jorahone.com` | Asterisk PBX / PJSIP / Snom  | `OPERATIONAL` |
+| `j1-biographer` | Voice AI memoir agent | `IN DEVELOPMENT` |
+| `CIPHER` | AI-driven SOC (Suricata/Zeek/Wazuh/OpenVAS) | `IN DEVELOPMENT` |
 
 </div>
 
@@ -47,21 +47,21 @@ UPTIME      Since [career start] — zero unplanned AD outages on my watch
 
 ```mermaid
 flowchart LR
-    subgraph Hub["🛰️ ollama-vm — HUB"]
+    subgraph Hub["ollama-vm — HUB"]
         A[llama.cpp + LiteLLM Router]
         B[Honcho — Persistent Memory]
         C[Qdrant — Vector Store]
         D[Nightly RAG Pipeline]
     end
 
-    subgraph Satellites["🏝️ Satellite Nodes"]
-        E[GPU VM — Private AI Core<br/>RTX 3060 12GB]
+    subgraph Satellites["Satellite Nodes"]
+        E[GPU VM — Private AI Core RTX 3060 12GB]
         F[Asterisk PBX / ARI]
         G[Telegram Bot]
         H[j1-biographer]
     end
 
-    subgraph Reporting["📡 Approval & Reporting"]
+    subgraph Reporting["Approval & Reporting"]
         I[Telegram Approval Loop]
     end
 
@@ -89,14 +89,14 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
 
-**🛰️ Hermes AI Infrastructure**
+**Hermes AI Infrastructure**
 Hub-and-satellite multi-agent system. `ollama-vm` running llama.cpp + LiteLLM, Honcho for persistent memory, Qdrant for vector storage, nightly RAG pipeline, Telegram-based approval loop. GPU satellite node runs a private inference core via FastAPI gateway.
 `STATUS: OPERATIONAL`
 
 </td>
 <td width="50%" valign="top">
 
-**🏢 Enterprise Network Operations**
+**Enterprise Network Operations**
 Enterprise AD replication monitoring, animated NOC topology dashboards, Aruba switch SNMP dashboards, and DHCP/AD subnet discovery tooling across distributed multi-site Windows environments.
 `STATUS: MONITORING`
 
@@ -105,14 +105,14 @@ Enterprise AD replication monitoring, animated NOC topology dashboards, Aruba sw
 <tr>
 <td width="50%" valign="top">
 
-**📞 Self-Hosted VoIP**
+**Self-Hosted VoIP**
 Asterisk PBX with PJSIP/ARI, over Tailscale, Cloudflare Tunnel for external SIP under the JorahOne Networks brand — no public port exposure.
 `STATUS: OPERATIONAL`
 
 </td>
 <td width="50%" valign="top">
 
-**🎙️ j1-biographer**
+**j1-biographer**
 Voice AI biographer agent merging Asterisk ARI + Telegram inputs into a shared Hermes brain for memoir-quality, memory-augmented life storytelling.
 `STATUS: IN DEVELOPMENT`
 
@@ -121,14 +121,14 @@ Voice AI biographer agent merging Asterisk ARI + Telegram inputs into a shared H
 <tr>
 <td width="50%" valign="top">
 
-**🛡️ CIPHER — AI-Driven SOC**
+**CIPHER — AI-Driven SOC**
 FastAPI backend integrating Suricata, Zeek, Wazuh, and OpenVAS for enterprise threat detection and response.
 `STATUS: IN DEVELOPMENT`
 
 </td>
 <td width="50%" valign="top">
 
-**👕 TRANKILO**
+**TRANKILO**
 Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, Umami, n8n, Honcho, Telegram approval loop. Brand voice: calm as strength.
 `STATUS: OPERATIONAL`
 
@@ -247,7 +247,7 @@ Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, 
 
 <div align="center">
 
-📍 St. Thomas, U.S. Virgin Islands &nbsp;|&nbsp; 🏢 JorahOne LLC &nbsp;|&nbsp; 🛰️ [JorahOne-Services](https://github.com/JorahOne-Services)
+St. Thomas, U.S. Virgin Islands | JorahOne LLC | [JorahOne-Services](https://github.com/JorahOne-Services)
 
 [![Portfolio](https://img.shields.io/badge/jorahone.com-FFB300?style=flat-square&logo=googlechrome&logoColor=0d0d0c)](https://jorahone.com)
 [![Voice PBX](https://img.shields.io/badge/voice.jorahone.com-FFB300?style=flat-square&logo=asterisk&logoColor=0d0d0c)](#)
@@ -257,3 +257,6 @@ Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, 
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a17,100:0d0d0c&height=100&section=footer" width="100%"/>
+
+---
+Part of the JorahOne / J1 ecosystem — personal profile for the VIDE OIT infrastructure.
