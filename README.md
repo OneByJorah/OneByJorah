@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0c,100:1a1a17&height=210&section=header&text=JORAHONE&fontSize=62&fontColor=FFB300&fontAlignY=36&desc=Network%20Security%20%7C%20Windows%20AD%20%7C%20Self-Hosted%20AI%20Infrastructure&descAlignY=56&descSize=16&descColor=FFB300&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=22&duration=3000&pause=800&color=FFB300&center=true&vCenter=true&width=750&lines=Jhonattan+L.+Jimenez+%2F%2F+OneByJorah;Network+Security+Administrator+%40+VIDE+OIT;Founder+%2F%2F+JorahOne+LLC;Building+Hermes%3A+hub-and-satellite+AI+infra;35%2B+domain+controllers+%2F%2F+zero+downtime;Status%3A+OPERATIONAL" />
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=22&duration=3000&pause=800&color=FFB300&center=true&vCenter=true&width=750&lines=Jhonattan+L.+Jimenez+%2F%2F+OneByJorah;Network+Security+Administrator+%40+JorahOne+Networks;Founder+%2F%2F+JorahOne+LLC;Building+Hermes%3A+hub-and-satellite+AI+infra;35%2B+domain+controllers+%2F%2F+zero+downtime;Status%3A+OPERATIONAL" />
 
 [![Profile Views](https://komarev.com/ghpvc/?username=OneByJorah&color=FFB300&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/OneByJorah)
 [![Followers](https://img.shields.io/github/followers/OneByJorah?style=for-the-badge&color=0d0d0c&labelColor=0d0d0c&logoColor=FFB300&logo=github)](https://github.com/OneByJorah?tab=followers)
@@ -17,7 +17,7 @@
 
 ```
 NAME        Jhonattan L. Jimenez ("JorahOne")
-ROLE        Network Security Administrator — VIDE Office of Information Technology
+ROLE        Network Security Administrator — JorahOne Networks
 SIDE        Founder, JorahOne LLC — solo MSP for SMBs (AD, network security, M365)
 LOCATION    St. Thomas, U.S. Virgin Islands
 STACK       Windows Server · Active Directory · Docker · PowerShell · self-hosted everything
@@ -55,7 +55,7 @@ flowchart LR
     end
 
     subgraph Satellites["🏝️ Satellite Nodes"]
-        E[GPU VM — VIDEaiCORE<br/>RTX 3060 12GB]
+        E[GPU VM — Private AI Core<br/>RTX 3060 12GB]
         F[Asterisk PBX / ARI]
         G[Telegram Bot]
         H[j1-biographer]
@@ -90,14 +90,14 @@ flowchart LR
 <td width="50%" valign="top">
 
 **🛰️ Hermes AI Infrastructure**
-Hub-and-satellite multi-agent system. `ollama-vm` running llama.cpp + LiteLLM, Honcho for persistent memory, Qdrant for vector storage, nightly RAG pipeline, Telegram-based approval loop. GPU satellite node runs VIDEaiCORE via FastAPI gateway.
+Hub-and-satellite multi-agent system. `ollama-vm` running llama.cpp + LiteLLM, Honcho for persistent memory, Qdrant for vector storage, nightly RAG pipeline, Telegram-based approval loop. GPU satellite node runs a private inference core via FastAPI gateway.
 `STATUS: OPERATIONAL`
 
 </td>
 <td width="50%" valign="top">
 
-**🏢 VIDE Network Operations**
-Enterprise AD replication monitoring, animated NOC topology dashboards, Aruba switch SNMP dashboards, and DHCP/AD subnet discovery tooling across a distributed multi-district Windows environment.
+**🏢 Enterprise Network Operations**
+Enterprise AD replication monitoring, animated NOC topology dashboards, Aruba switch SNMP dashboards, and DHCP/AD subnet discovery tooling across distributed multi-site Windows environments.
 `STATUS: MONITORING`
 
 </td>
@@ -122,7 +122,7 @@ Voice AI biographer agent merging Asterisk ARI + Telegram inputs into a shared H
 <td width="50%" valign="top">
 
 **🛡️ CIPHER — AI-Driven SOC**
-FastAPI backend integrating Suricata, Zeek, Wazuh, and OpenVAS for VIDE OIT threat detection and response.
+FastAPI backend integrating Suricata, Zeek, Wazuh, and OpenVAS for enterprise threat detection and response.
 `STATUS: IN DEVELOPMENT`
 
 </td>
