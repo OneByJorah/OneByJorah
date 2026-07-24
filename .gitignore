@@ -27,3 +27,6 @@ venv/
 # Build outputs
 dist/
 build/
+
+# OneByJorah portfolio tooling
+.venv-screenshot/
