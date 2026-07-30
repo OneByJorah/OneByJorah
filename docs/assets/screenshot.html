@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OneByJorah Profile</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0d1117; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 40px; }
+.profile { max-width: 900px; margin: 0 auto; }
+.header { display: flex; align-items: center; gap: 24px; margin-bottom: 30px; padding-bottom: 24px; border-bottom: 1px solid #30363d; }
+.avatar { width: 120px; height: 120px; border-radius: 50%; border: 3px solid #f59e0b; background: linear-gradient(135deg, #1e293b, #0f172a); display: flex; align-items: center; justify-content: center; font-size: 48px; }
+.info h1 { font-size: 28px; color: #f59e0b; }
+.info p { color: #8b949e; font-size: 14px; margin-top: 4px; }
+.badges { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.badge { background: #21262d; padding: 3px 10px; border-radius: 12px; font-size: 12px; border: 1px solid #30363d; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 20px 0; }
+.stat-box { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; text-align: center; }
+.stat-box .num { font-size: 24px; font-weight: 700; color: #f59e0b; }
+.stat-box .label { font-size: 12px; color: #8b949e; }
+.repos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 20px; }
+.repo-card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; }
+.repo-card h3 { font-size: 14px; color: #58a6ff; margin-bottom: 4px; }
+.repo-card p { font-size: 12px; color: #8b949e; }
+.section-title { color: #f59e0b; font-size: 16px; font-weight: 600; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid #30363d; }
+.arch { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 20px; font-family: monospace; font-size: 12px; line-height: 1.6; color: #8b949e; margin-top: 12px; }
+.arch .hl { color: #f59e0b; }
+.philosophy { font-style: italic; color: #8b949e; text-align: center; padding: 20px; border-top: 1px solid #30363d; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="profile">
+  <div class="header">
+    <div class="avatar">🌴</div>
+    <div class="info">
+      <h1>Jhonattan L. Jimenez</h1>
+      <p>Network Security Administrator — JorahOne Networks · St. Thomas, USVI</p>
+      <div class="badges">
+        <span class="badge">🔒 Network Security</span>
+        <span class="badge">🐳 Docker</span>
+        <span class="badge">🤖 AI/ML</span>
+        <span class="badge">☁️ Self-Hosted</span>
+        <span class="badge">🔧 PowerShell</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat-box"><div class="num">42</div><div class="label">Repositories</div></div>
+    <div class="stat-box"><div class="num">65</div><div class="label">Stars Earned</div></div>
+    <div class="stat-box"><div class="num">3</div><div class="label">Followers</div></div>
+  </div>
+
+  <div class="section-title">> whoami</div>
+  <div class="arch">
+NAME        Jhonattan L. Jimenez ("JorahOne")<br>
+ROLE        Network Security Administrator — JorahOne Networks<br>
+SIDE        Founder, JorahOne LLC — solo MSP for SMBs<br>
+LOCATION    St. Thomas, U.S. Virgin Islands<br>
+STACK       Windows Server · Active Directory · Docker · PowerShell · self-hosted everything<br>
+PHILOSOPHY  Tailscale-only exposure · CLI over GUI · self-hosted over SaaS · MIT-licensed<br>
+UPTIME      Zero unplanned AD outages since career start
+  </div>
+
+  <div class="section-title">> featured-repos</div>
+  <div class="repos">
+    <div class="repo-card"><h3>ChatForge</h3><p>AI-powered multi-model chat interface — OpenAI, Anthropic, Ollama</p></div>
+    <div class="repo-card"><h3>NexusCore</h3><p>Enterprise NOC platform — unified monitoring</p></div>
+    <div class="repo-card"><h3>VoiceCortex</h3><p>Self-hosted phone AI assistant</p></div>
+    <div class="repo-card"><h3>AIStack</h3><p>Unified AI infrastructure — one-command deploy</p></div>
+    <div class="repo-card"><h3>BenchDash</h3><p>Automated LLM benchmarking platform</p></div>
+    <div class="repo-card"><h3>OpsCenter</h3><p>AI agent operations dashboard</p></div>
+  </div>
+
+  <div class="section-title">> architecture — hermes hub & satellite</div>
+  <div class="arch">
+<span class="hl">ollama-vm (HUB)</span> → llama.cpp + LiteLLM + Honcho + Qdrant<br>
+    ├── <span class="hl">GPU Satellite</span> — Private AI Core (RTX 3060 12GB)<br>
+    ├── <span class="hl">Asterisk PBX</span> — Voice AI pipeline<br>
+    ├── <span class="hl">Telegram Bot</span> — Approval loop<br>
+    └── <span class="hl">CIPHER SOC</span> — AI-driven threat detection<br>
+<br>
+"Every satellite reports to the hub. Every hub answers to Tailscale."
+  </div>
+
+  <div class="philosophy">Built with 🌴 by OneByJorah · jorahone.com</div>
+</div>
+</body>
+</html>
