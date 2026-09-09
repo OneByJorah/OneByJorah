@@ -9,8 +9,8 @@ Network Security Administrator — JorahOne Networks
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square)](LICENSE)
 [![Location](https://img.shields.io/badge/location-St%20Thomas%2C%20USVI-blue?style=flat-square)](https://maps.google.com/?q=St+Thomas+USVI)
 [![Stack](https://img.shields.io/badge/stack-AD%20%D7%90%20Docker%20%D7%90%20PowerShell%20%D7%90%20Tailscale-0ea5e9?style=flat-square)](#-tech-stack)
+[![GitHub Profile](https://img.shields.io/badge/dynamic/json?style=flat-square&color=f59e0b&label=repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FOneByJorah)](https://github.com/OneByJorah?tab=repositories)
 [![Profile Views](https://komarev.com/ghpvc/?username=OneByJorah&style=flat-square&color=38bdf8)](https://github.com/OneByJorah)
-[![Repos](https://img.shields.io/badge/dynamic/json?style=flat-square&color=f59e0b&label=repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FOneByJorah)](https://github.com/OneByJorah?tab=repositories)
 
 </div>
 
@@ -19,6 +19,22 @@ Network Security Administrator — JorahOne Networks
 <p align="center">
   <img src="docs/assets/screenshot.png" alt="OneByJorah archipelago preview" width="90%">
 </p>
+
+## Screenshots
+
+### OneByJorah Profile Overview
+
+<div align="center">
+  <img src="docs/assets/screenshot.png" alt="OneByJorah profile overview" width="90%">
+  <p><em>OneByJorah profile with architecture diagram, featured repositories, and key metrics</em></p>
+</div>
+
+### Archipelago Architecture
+
+<div align="center">
+  <img src="docs/assets/banner.svg" alt="OneByJorah archipelago architecture" width="90%">
+  <p><em>Archipelago metaphor: hub-and-satellite architecture with hermes infrastructure</em></p>
+</div>
 
 ## `> whoami`
 
@@ -153,7 +169,6 @@ Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, 
 <tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/ChatForge">ChatForge</a></h3>
-    <img src="https://raw.githubusercontent.com/OneByJorah/ChatForge/main/screenshot.png" alt="ChatForge" width="100%"/>
     <p>AI-powered chat interface — multi-model support (OpenAI, Anthropic, Ollama), real-time WebSocket streaming</p>
     <img src="https://img.shields.io/github/languages/top/OneByJorah/ChatForge?color=38bdf8&style=flat-square" alt="language"/>
     <img src="https://img.shields.io/github/license/OneByJorah/ChatForge?color=f59e0b&style=flat-square" alt="license"/>
@@ -161,7 +176,6 @@ Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, 
   </td>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/AIStack">AIStack</a></h3>
-    <img src="https://raw.githubusercontent.com/OneByJorah/AIStack/master/screenshot.png" alt="AIStack" width="100%"/>
     <p>Unified AI infrastructure stack — Docker Compose deployment for Ollama, Qdrant, LiteLLM, Honcho + Caddy</p>
     <img src="https://img.shields.io/github/languages/top/OneByJorah/AIStack?color=38bdf8&style=flat-square" alt="language"/>
     <img src="https://img.shields.io/github/license/OneByJorah/AIStack?color=f59e0b&style=flat-square" alt="license"/>
