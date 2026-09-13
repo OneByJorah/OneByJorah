@@ -4,37 +4,23 @@
 
 # OneByJorah
 
-Network Security Administrator — JorahOne Networks
+**Network Security Administrator at JorahOne Networks — I build and self-host the infrastructure that keeps small businesses secure, connected, and automated.**
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square)](LICENSE)
-[![Location](https://img.shields.io/badge/location-St%20Thomas%2C%20USVI-blue?style=flat-square)](https://maps.google.com/?q=St+Thomas+USVI)
-[![Stack](https://img.shields.io/badge/stack-AD%20%D7%90%20Docker%20%D7%90%20PowerShell%20%D7%90%20Tailscale-0ea5e9?style=flat-square)](#-tech-stack)
-[![GitHub Profile](https://img.shields.io/badge/dynamic/json?style=flat-square&color=f59e0b&label=repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FOneByJorah)](https://github.com/OneByJorah?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=OneByJorah&style=flat-square&color=38bdf8)](https://github.com/OneByJorah)
+<a href="https://github.com/OneByJorah?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=f59e0b&label=repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FOneByJorah" alt="Public repos"></a>
+<a href="https://github.com/OneByJorah"><img src="https://img.shields.io/github/followers/OneByJorah?style=flat-square&color=38bdf8" alt="Followers"></a>
+<img src="https://img.shields.io/badge/location-St%20Thomas%2C%20USVI-blue?style=flat-square" alt="St Thomas, USVI">
+<img src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square" alt="MIT">
+<img src="https://img.shields.io/badge/self--hosted-over%20SaaS-0ea5e9?style=flat-square" alt="Self-hosted">
 
 </div>
 
----
+![OneByJorah profile overview](docs/assets/screenshot.png)
 
-<p align="center">
-  <img src="docs/assets/screenshot.png" alt="OneByJorah archipelago preview" width="90%">
-</p>
+## What This Is
 
-## Screenshots
+This is the org profile repository for **JorahOne Networks**. It is not an application — it is the front page that describes who I am, how I work, and the self-hosted infrastructure behind the tools in this org.
 
-### OneByJorah Profile Overview
-
-<div align="center">
-  <img src="docs/assets/screenshot.png" alt="OneByJorah profile overview" width="90%">
-  <p><em>OneByJorah profile with architecture diagram, featured repositories, and key metrics</em></p>
-</div>
-
-### Archipelago Architecture
-
-<div align="center">
-  <img src="docs/assets/banner.svg" alt="OneByJorah archipelago architecture" width="90%">
-  <p><em>Archipelago metaphor: hub-and-satellite architecture with hermes infrastructure</em></p>
-</div>
+Every project here follows the same philosophy: **nothing public that doesn't have to be, nothing manual that can be scripted**. Exposure is Tailscale-only by default, CLI is preferred over GUI, self-hosted over SaaS, and everything is MIT-licensed.
 
 ## `> whoami`
 
@@ -45,20 +31,9 @@ SIDE        Founder, JorahOne LLC — solo MSP for SMBs (AD, network security, M
 LOCATION    St. Thomas, U.S. Virgin Islands
 STACK       Windows Server · Active Directory · Docker · PowerShell · self-hosted everything
 PHILOSOPHY  Tailscale-only exposure · CLI over GUI · self-hosted over SaaS · MIT-licensed
-UPTIME      Zero unplanned AD outages since career start
 ```
 
-## `> ops-status`
-
-| Node | Purpose | State |
-|---|---|---|
-| `ollama-vm` | Main Hermes inference node — llama.cpp + LiteLLM | operational |
-| `gpu-satellite` | Private AI core — Ornith-1.0-9B on RTX 3060 12 GB | operational |
-| `voice.jorahone.com` | Asterisk PBX stack with PJSIP + Snom endpoints | operational |
-| `j1-biographer` | Voice AI memoir agent | in development |
-| `CIPHER` | AI-driven SOC — Suricata, Zeek, Wazuh, OpenVAS | in development |
-
-## `> architecture — hermes hub & satellite`
+## `> architecture — hermes hub & satellites`
 
 ```mermaid
 flowchart LR
@@ -95,6 +70,16 @@ flowchart LR
 ```
 
 <sub>Archipelago metaphor, on purpose: every node self-hosted, every link Tailscale-only, every deploy MIT-licensed.</sub>
+
+## `> ops-status`
+
+| Node | Purpose | State |
+|---|---|---|
+| `ollama-vm` | Main Hermes inference node — llama.cpp + LiteLLM | operational |
+| `gpu-satellite` | Private AI core — Ornith-1.0-9B on RTX 3060 12 GB | operational |
+| `voice.jorahone.com` | Asterisk PBX stack with PJSIP + Snom endpoints | operational |
+| `j1-biographer` | Voice AI memoir agent | in development |
+| `CIPHER` | AI-driven SOC — Suricata, Zeek, Wazuh, OpenVAS | in development |
 
 ## `> current-deployments`
 
@@ -149,20 +134,6 @@ Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, 
 </tr>
 </table>
 
-## `> changelog`
-
-```
-[RECENT]     Aruba SNMP dashboards · GCDS/Entra Connect directory sync · iOS on-device LLM (Hermes)
-             PowerShell DHCP/AD subnet discovery tooling · CIPHER SOC buildout
-
-[EARLIER]    jorahone-ai-stack Docker Compose (Honcho + Qdrant + LiteLLM + Caddy)
-             J1-FLEET (Three.js fleet dashboard) · J1-PULSE (uptime monitor) · J1-BENCH (LLM eval harness)
-             StackDeploy multi-service orchestration · hermes-realm (PixiJS archipelago viz)
-
-[FOUNDATION] j1-adrepl-monitor — open-sourced AD replication daemon for 35+ DC environment
-             NOC Operations Platform v5.0 · JorahOne MSP framework (SOPs, SLAs, onboarding playbooks)
-```
-
 ## `> featured-repos`
 
 <table>
@@ -170,100 +141,60 @@ Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, 
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/ChatForge">ChatForge</a></h3>
     <p>AI-powered chat interface — multi-model support (OpenAI, Anthropic, Ollama), real-time WebSocket streaming</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/ChatForge?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/ChatForge?color=f59e0b&style=flat-square" alt="license"/>
-    <img src="https://img.shields.io/github/last-commit/OneByJorah/ChatForge?color=34d399&style=flat-square" alt="last commit"/>
   </td>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/AIStack">AIStack</a></h3>
     <p>Unified AI infrastructure stack — Docker Compose deployment for Ollama, Qdrant, LiteLLM, Honcho + Caddy</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/AIStack?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/AIStack?color=f59e0b&style=flat-square" alt="license"/>
-    <img src="https://img.shields.io/github/last-commit/OneByJorah/AIStack?color=34d399&style=flat-square" alt="last commit"/>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/BenchDash">BenchDash</a></h3>
     <p>Automated benchmarking platform for local LLMs on Ollama — auto-discover, test, rank, and visualize</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/BenchDash?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/BenchDash?color=f59e0b&style=flat-square" alt="license"/>
   </td>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/NexusCore">NexusCore</a></h3>
     <p>Enterprise NOC platform — unified monitoring for AD, NTP, DNS, PBX, helpdesk, and AI-powered alerting</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/NexusCore?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/NexusCore?color=f59e0b&style=flat-square" alt="license"/>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/VoiceCortex">VoiceCortex</a></h3>
-    <p>Self-hosted phone AI assistant — real-time voice conversations over telephone via STT > LLM > TTS</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/VoiceCortex?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/VoiceCortex?color=f59e0b&style=flat-square" alt="license"/>
+    <p>Self-hosted phone AI assistant — real-time voice conversations over telephone via STT &rsaquo; LLM &rsaquo; TTS</p>
   </td>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/OpsCenter">OpsCenter</a></h3>
     <p>AI agent operations dashboard — real-time monitoring, task management, fleet visibility for Hermes agents</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/OpsCenter?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/OpsCenter?color=f59e0b&style=flat-square" alt="license"/>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/SentryView">SentryView</a></h3>
     <p>Self-hosted RTSP NVR dashboard — live monitoring, recording, and timeline review for IP cameras</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/SentryView?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/SentryView?color=f59e0b&style=flat-square" alt="license"/>
   </td>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/CommandDesk">CommandDesk</a></h3>
     <p>Self-hosted AI helpdesk agent — multi-platform ticketing, email-to-ticket, AI auto-response</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/CommandDesk?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/CommandDesk?color=f59e0b&style=flat-square" alt="license"/>
-  </td>
-</tr>
-<tr>
-  <td width="50%" valign="top">
-    <h3><a href="https://github.com/OneByJorah/PrimeHub">PrimeHub</a></h3>
-    <p>Portfolio hub — repo health, standardization status, and ecosystem overview for OneByJorah infrastructure</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/PrimeHub?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/PrimeHub?color=f59e0b&style=flat-square" alt="license"/>
-  </td>
-  <td width="50%" valign="top">
-    <h3><a href="https://github.com/OneByJorah/VirtOffice">VirtOffice</a></h3>
-    <p>Animated 3D virtual office for Hermes AgentOS subagents — real-time isometric AI visualization</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/VirtOffice?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/VirtOffice?color=f59e0b&style=flat-square" alt="license"/>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/ConfigVault">ConfigVault</a></h3>
     <p>Network backup and asset management dashboard — device inventory, backup scheduling, snapshot restore</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/ConfigVault?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/ConfigVault?color=f59e0b&style=flat-square" alt="license"/>
   </td>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/DirWatch">DirWatch</a></h3>
     <p>Active Directory DC monitoring dashboard — real-time health, replication status, and alerting</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/DirWatch?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/DirWatch?color=f59e0b&style=flat-square" alt="license"/>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/OneByJorah/MSPEngine">MSPEngine</a></h3>
     <p>Windows 10/11 provisioning and debloat utility for MSP technicians — one-click setup</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/MSPEngine?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/MSPEngine?color=f59e0b&style=flat-square" alt="license"/>
   </td>
   <td width="50%" valign="top">
-    <h3><a href="https://github.com/OneByJorah/StackForge">StackForge</a></h3>
-    <p>Multi-service container orchestration — deploy and manage complex Docker stacks</p>
-    <img src="https://img.shields.io/github/languages/top/OneByJorah/StackForge?color=38bdf8&style=flat-square" alt="language"/>
-    <img src="https://img.shields.io/github/license/OneByJorah/StackForge?color=f59e0b&style=flat-square" alt="license"/>
+    <h3><a href="https://github.com/OneByJorah/AegisPass">AegisPass</a></h3>
+    <p>Self-service Active Directory password reset portal — LDAPS-pinned, workflow-driven, fully audited</p>
   </td>
 </tr>
 </table>
@@ -291,12 +222,6 @@ Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=OneByJorah&theme=transparent&hide_border=true&ring=f59e0b&fire=f59e0b&currStreakLabel=38bdf8" alt="GitHub streak"/>
 </p>
 
-## `> activity-graph`
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OneByJorah&theme=react-dark&hide_border=true&color=38bdf8&line=f59e0b&point=38bdf8" alt="Activity graph"/>
-</p>
-
 ## `> contribution-snake`
 
 <p align="center">
@@ -310,13 +235,23 @@ Streetclothing brand with a self-hosted social media agent — Postiz, ComfyUI, 
  Nothing public that doesn't have to be. Nothing manual that can be scripted."
 ```
 
-## `> connect`
+## Screenshots
 
-- 🌐 Portfolio: [jorahone.com](https://jorahone.com)
-- 📡 VoIP site: [voice.jorahone.com](https://voice.jorahone.com)
-- 🐙 GitHub Org: [JorahOne-Services](https://github.com/JorahOne-Services)
-- 📧 Contact: info@jorahone.com
+| View | |
+|---|---|
+| ![Profile overview](docs/assets/screenshot.png) | ![Mobile](docs/assets/screenshot-mobile.png) |
+| ![Full viewport](docs/screenshots/main.viewport.full.png) | ![Mobile capture](docs/screenshots/main.mobile.png) |
 
----
+## Contributing
 
-<p align="center">Built with 🌴 by <a href="https://github.com/OneByJorah">OneByJorah</a> · <a href="https://jorahone.com">jorahone.com</a></p>
+Fork, branch, and open a pull request — see [CONTRIBUTING.md](CONTRIBUTING.md). [Open an issue](https://github.com/OneByJorah/OneByJorah/issues) for bugs or ideas.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+## Connect
+
+- [jorahone.com](https://jorahone.com)
+- [GitHub Org](https://github.com/OneByJorah)
+- [info@jorahone.com](mailto:info@jorahone.com)
