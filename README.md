@@ -21,15 +21,15 @@ OneByJorah GitHub profile — personal portfolio, pinned repositories, and profe
 
 | Project | Description |
 |---------|-------------|
-| [ChatForge](https://github.com/OneByJorah/ChatForge) | AI-powered chat interface |
-| [NetCore](https://github.com/OneByJorah/NetCore) | AI-powered network switch management |
-| [TeleOps](https://github.com/OneByJorah/TeleOps) | Unified NOC platform for Telegram |
-| [VoiceSat](https://github.com/OneByJorah/VoiceSat) | Jarvis-style wake-word voice pipeline |
-| [StackForge](https://github.com/OneByJorah/StackForge) | CPU-only, privacy-focused AI agent stack |
-| [DirWatch](https://github.com/OneByJorah/DirWatch) | Active Directory DC health dashboard |
-| [NexusCore](https://github.com/OneByJorah/NexusCore) | Enterprise NOC platform |
-| [VoiceCortex](https://github.com/OneByJorah/VoiceCortex) | Self-hosted phone AI assistant |
-| [StackForge](https://github.com/OneByJorah/StackForge) | CPU-only AI agent Docker stack |
+| [chavora](https://github.com/OneByJorah/chavora) | AI-powered chat interface |
+| [netara](https://github.com/OneByJorah/netara) | AI-powered network switch management |
+| [telnoc](https://github.com/OneByJorah/telnoc) | Unified NOC platform for Telegram |
+| [satvox](https://github.com/OneByJorah/satvox) | Jarvis-style wake-word voice pipeline |
+| [staxen](https://github.com/OneByJorah/staxen) | CPU-only, privacy-focused AI agent stack |
+| [dirvex](https://github.com/OneByJorah/dirvex) | Active Directory DC health dashboard |
+| [nuxora](https://github.com/OneByJorah/nuxora) | Enterprise NOC platform |
+| [vokara](https://github.com/OneByJorah/vokara) | Self-hosted phone AI assistant |
+| [staxen](https://github.com/OneByJorah/staxen) | CPU-only AI agent Docker stack |
 
 ## Connect
 
